@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
     console.log(`❌Assertion Failed:, ${actual} !== ${expected}`);
   }
 };
-
+// access tail of arrays
 const tail = function(array) {
   let tailArr = array.slice(1);
   return tailArr;
