@@ -1,5 +1,5 @@
 const assertEqual = function(actual, expected) {
-
+// compare 2 arrays
   if (JSON.stringify(actual) === JSON.stringify(expected)) {
 
     console.log(`✅Assertion Passed:, ${actual} ===  ${expected}`);
