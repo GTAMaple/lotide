@@ -28,4 +28,6 @@ const countLetters = function (allItems) {
   }
   return letters;
 }
-console.log(countLetters("lighthouse in the house"));
+const result = (countLetters("lighthouse in the house"));
+assertEqual(result['g'],1); // compare the value inside the key[g]
+assertEqual(result['w'],1);
