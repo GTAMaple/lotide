@@ -34,7 +34,7 @@ const eqObjects = function (object1, object2) {
 
     for (let key of obj1) {
 
-      if (obj1[key] === obj2[key]) { // compare 2 values between 2 objects
+      if (obj1[key] !== obj2[key]) { // checking key2 are the same
         
         if(Array.isArray(obj1[key] === true)){ // check if is array itself
           return eqArrays(obj2[key], obj1[key]); // compare 2 arrays, check if equal
